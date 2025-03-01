@@ -3,9 +3,7 @@ import BillForm from "./components/BillForm";
 const Home = () => {
   return (
     <main>
-      <div>
-        <BillForm />
-      </div>
+      <BillForm />
     </main>
   );
 };

@@ -21,7 +21,7 @@ const BillBlockList = ({ formData, onRemoveBlock }: BillBlockListProps) => {
             <IoIosClose className="w-[24px] h-[24px]" />
           </button>
 
-          <div className="flex flex-col gap-[5px] pl-[30px]">
+          <div className="flex flex-col gap-[5px]">
             <span>Amount: ${amount}</span>
             <span>From: {fromAccount}</span>
             <span>Date: {formatDate(date)}</span>
