@@ -144,6 +144,9 @@ const BillForm = () => {
             You can only add 5 bills
           </div>
         )}
+        {formData.length === 0 && (
+          <p className="text-center mt-[15px]">There are not bills yet!</p>
+        )}
 
         <BillBlockList formData={formData} onRemoveBlock={handleRemoveBlock} />
       </LocalizationProvider>
